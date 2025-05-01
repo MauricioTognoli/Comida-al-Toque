@@ -79,7 +79,7 @@ export default function GenerarReceta() {
     <div className="container py-16">
       <div className="relative mb-12 food-image-overlay rounded-lg overflow-hidden">
         <Image
-          src="/placeholder.svg?height=300&width=1200"
+          src="/logo-llamas-2.png"
           alt="Ingredientes"
           width={1200}
           height={300}

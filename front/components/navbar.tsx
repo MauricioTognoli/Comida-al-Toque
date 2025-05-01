@@ -22,8 +22,7 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-food-gray bg-food-dark/95 backdrop-blur supports-[backdrop-filter]:bg-food-dark/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo.png" alt="Comida al Toque" width={40} height={40} />
-          <span className="hidden font-bold text-food-gold sm:inline-block">Comida al Toque</span>
+          <Image src="/logo.svg" alt="Comida al Toque" width={100} height={100} />
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">

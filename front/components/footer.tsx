@@ -6,9 +6,8 @@ export function Footer() {
     <footer className="w-full border-t border-food-gray bg-food-dark-light py-12">
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col items-center md:items-start">
-          <div className="flex items-center gap-2 mb-4">
-            <Image src="/logo.png" alt="Comida al Toque" width={40} height={40} />
-            <span className="text-xl font-bold text-food-gold">Comida al Toque</span>
+          <div className="flex items-center gap-2 mb-1">
+            <Image src="/logo.svg" alt="Comida al Toque" width={200} height={200} />
           </div>
           <p className="text-sm text-muted-foreground text-center md:text-left">
             Convierte los ingredientes que tienes en deliciosas recetas con la ayuda de nuestra inteligencia artificial.

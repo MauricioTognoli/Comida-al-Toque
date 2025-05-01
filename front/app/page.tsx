@@ -23,7 +23,7 @@ export default function Home() {
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-[var(--font-playfair)] font-bold tracking-tight">
-                  Descubre nuestro <span className="text-food-gold">gourmet</span> de recetas
+                  Recetas <span className="text-food-gold">personalizadas</span> al instante 
                 </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
                   Convierte los ingredientes que tienes en casa en deliciosas recetas con la ayuda de nuestra
@@ -87,7 +87,7 @@ export default function Home() {
                         className="object-cover transition-transform duration-300 group-hover:scale-105 blur-[2px]"
                       />
                       <div className="absolute inset-0 flex items-center justify-center content-center">
-                        <h3 className="text-xl text-shadow font-medium text-white">{name}</h3>
+                        <h3 className="text-2xl text-shadow font-medium text-white">{name}</h3>
                       </div>
                     </div>
                   </CardContent>
@@ -146,7 +146,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="relative w-full py-16 overflow-hidden food-image-overlay">
         <Image
-          src="/placeholder.svg?height=400&width=1600"
+          src="/logo-llamas.jpg"
           alt="Fondo de comida"
           fill
           className="object-cover absolute inset-0 z-0"

@@ -9,7 +9,7 @@ export default function About() {
     <div className="container py-16">
       <div className="relative mb-12 food-image-overlay rounded-lg overflow-hidden">
         <Image
-          src="/placeholder.svg?height=300&width=1200"
+          src="/logo-llamas-2.png"
           alt="Acerca de nosotros"
           width={1200}
           height={300}
@@ -82,7 +82,7 @@ export default function About() {
           </div>
           <div className="flex justify-center">
             <Image
-              src="/placeholder.svg?height=300&width=300"
+              src="/logo.svg"
               width={300}
               height={300}
               alt="Cocina sostenible"
@@ -93,7 +93,7 @@ export default function About() {
       </div>
 
       <div className="relative food-image-overlay rounded-lg overflow-hidden p-12">
-        <Image src="/placeholder.svg?height=300&width=1200" alt="Contacto" fill className="object-cover" />
+        <Image src="/logo-llamas.jpg" alt="Contacto" fill className="object-cover" />
         <div className="relative z-10 text-center">
           <h2 className="text-2xl font-[var(--font-playfair)] font-bold text-food-gold mb-4">¿Listo para empezar?</h2>
           <p className="max-w-2xl mx-auto mb-6 text-white">
